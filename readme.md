@@ -24,3 +24,8 @@ Demo
 ![image](http://i.snag.gy/5EFUZ.jpg)
 
 ![image](http://i.snag.gy/3HLIg.jpg)
+
+
+Theme used in demo: http://startbootstrap.com/template-overviews/freelancer/
+
+I was kind enough to slice it up into extended views for you ;)
