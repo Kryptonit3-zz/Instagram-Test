@@ -24,7 +24,14 @@ class UsernameSearch extends Request
     public function rules()
     {
         return [
-            'username' => 'required|alpha_dash'
+            'username' => 'required|regex:/\A[\w\-\.]+\z/'
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+            'username.regex' => 'Only letters, numbers, dashes, underscores and periods.'
         ];
     }
 }
